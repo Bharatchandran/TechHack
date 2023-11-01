@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+
+}
+
+.nav__left{
+    display: flex;
+}
+.nav__left h4{
+    margin: 10px;
+}
+
+.nav__right{
+    display: flex;
+
+}
+.nav__right h4 {
+    margin: 10px;
+}
