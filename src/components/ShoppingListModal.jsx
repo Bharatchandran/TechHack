@@ -66,9 +66,9 @@ const ShoppingListModal = ({show, handleCloseShoppingModal}) => {
               <Col className="mb-3"> 
               <Card style={{ width: '10rem', height: '12rem', borderRadius: '1rem'}}> 
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <Card.Title className="text-center align-middle">Sour Cream</Card.Title>
+                    <Card.Title className="text-center align-middle">Tinned Tomato</Card.Title>
                     <div className="mt-auto">
-                      <Icon icon="fluent:number-circle-1-16-regular" style={{ height: "25px", width: "25px" }} />
+                      <Icon icon="fluent:number-circle-5-16-regular" style={{ height: "25px", width: "25px" }} />
                       <p>Add</p>
                       <Icon icon="teenyicons:tick-circle-outline" style={{ height: "25px", width: "25px" }} />
                     </div>

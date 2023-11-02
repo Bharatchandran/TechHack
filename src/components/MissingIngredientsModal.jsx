@@ -23,7 +23,7 @@ const MissingIngredientsModal = ({show, handleCloseModal}) => {
               <Col className="mb-3">
                 <Card style={{ width: '10rem', borderRadius: '1rem'}}> 
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <Card.Title className="text-center align-middle">Tinned Tomato</Card.Title>
+                    <Card.Title className="text-center align-middle"> Basic Pasta Sauce</Card.Title>
                     <Icon icon="fluent:number-circle-2-16-regular" style={{height:"25px", width:"25px"}}> </Icon>
                     <p>Stock</p>
                     <Icon icon="teenyicons:tick-circle-solid" color="#3aa832"  style={{height:"25px", width:"25px"}}> </Icon>
@@ -55,7 +55,7 @@ const MissingIngredientsModal = ({show, handleCloseModal}) => {
               <Col className="mb-3">
               <Card style={{ width: '10rem', borderRadius: '1rem'}}> 
                   <Card.Body className="d-flex flex-column align-items-center">
-                    <Card.Title className="text-center align-middle">Tinned Tomato</Card.Title>
+                    <Card.Title className="text-center align-middle">Red Onions (Medium)</Card.Title>
                     <Icon icon="fluent:number-circle-6-16-regular" style={{height:"25px", width:"25px"}}> </Icon>
                     <p>Stock</p>
                     <Icon icon="teenyicons:tick-circle-solid" color="#3aa832"  style={{height:"25px", width:"25px"}}> </Icon>
