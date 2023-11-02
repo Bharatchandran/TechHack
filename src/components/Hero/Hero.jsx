@@ -31,7 +31,7 @@ export default function Hero(){
                         Reduce food waste and save money.
                     </h1>
                     <h3>
-                    Keep track of food waste and save money and reduce carbon footprint. Track what is at home ready to make your favourite meal tonight without buying too much or forgetting a key ingrediant.
+                    Keep track of food waste and save money and reduce carbon footprint. Track what is at home ready to make your favourite meal tonight without buying too much or forgetting a key ingredient.
                     </h3>
                 </div>
                 <div className="action">
@@ -53,6 +53,5 @@ export default function Hero(){
                 handleCloseShoppingModal={handleCloseShoppingModal}
             />}
         </>
-
     )
 }
