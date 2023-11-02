@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import MissingIngredientsModal from "../MissingIngredientsModal";
 
 export default function BeansRecipe(){
-    const [recipeIngredients, setRecipeIngredients] = useState({
-        recipe: "",
-        ingredients_list: ""
-      });
+    // const [recipeIngredients, setRecipeIngredients] = useState({
+    //     recipe: "",
+    //     ingredients_list: ""
+    //   });
 
     const [show, setShowModal] = useState(false);
     const handleCloseModal = () => setShowModal(false);
