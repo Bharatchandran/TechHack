@@ -1,7 +1,6 @@
 import "./BeansRecipe.css"
 import { Icon } from '@iconify/react';
 import { useEffect, useState } from "react";
-import Button from 'react-bootstrap/Button';
 import MissingIngredientsModal from "../MissingIngredientsModal";
 
 export default function BeansRecipe(){
@@ -29,9 +28,9 @@ export default function BeansRecipe(){
 
                 </div>
                 <div className="reciepe__functions">
-                    <Button variant="primary" onClick={handleShowModal}>
+                    <button onClick={handleShowModal}>
                     Add to Shopping List
-                    </Button>
+                    </button>
                     <button>Remove Ingredients from Stock</button>
                     <button>Edit Recipe</button> 
                 </div>
