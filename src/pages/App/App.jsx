@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { supabase } from "../../../supabaseAuth/supabaseClient";
 import NavBar from "../../components/NavBar/NavBar";
-import Header from "../../components/Header/Header";
+import Hero from "../../components/Hero/Hero";
 import Container from "../../components/Container/Container";
 import "./App.css"
+import ReciepeDisplay from "../../components/ReciepeDisplay/ReciepeDisplay";
 function App() {
   const [countries, setCountries] = useState([]);
 
@@ -19,11 +20,11 @@ function App() {
   return (
     <div className="app">
       <NavBar />
-      <Header />
+      <Hero />
       <div style={{display:"flex", margin:"20px", justifyContent:"space-around"}}>
-
-      <Container />
-      <Container />
+      <ReciepeDisplay />
+      {/* <Container />
+      <Container /> */}
       </div>
     <ul>
       {countries.map((country) => (

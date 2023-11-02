@@ -1,0 +1,25 @@
+.display__reciepe{
+    height: 743px;
+    padding: 38px 18px 38px 18px;
+    gap: 71px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.reciepe-display{
+    display: flex;
+    flex-direction: column;
+align-items: center;    
+position: relative;
+}
+
+.add-reciepe{
+    width: 773px;
+    height: 58px;
+    border-radius: 14px;
+    border: 1px solid black;
+    padding: 4px 12px ;
+    position: absolute;
+    bottom: 60px;
+}
