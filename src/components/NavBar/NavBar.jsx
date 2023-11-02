@@ -5,7 +5,7 @@ export default function NavBar(){
     return(
         <div className="navbar">  
            <div className="nav__left">
-            <h3>Food Store</h3>
+            <h4>Food Store</h4>
             <h4>Search</h4>
             <input type="text" />
            </div>
