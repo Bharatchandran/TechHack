@@ -7,7 +7,6 @@ export default function RecipeDisplay(){
             <div className="display__reciepe">
             <BeansRecipe/>
             <SpaghettiRecipe/>
-
             </div>
             <button className="add-reciepe">Add a New Recipe</button>
         </div>

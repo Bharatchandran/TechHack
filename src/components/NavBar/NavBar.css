@@ -4,15 +4,14 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 1);
-
 }
 
 .nav__left{
     display: flex;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .nav__left * {
-    margin: 10px;
+    margin: 20px;
 }
 .nav__left h3 {
     width: 121px;

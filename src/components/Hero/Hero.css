@@ -1,17 +1,25 @@
-.hero{
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 600px;
-     /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);; */
-     background-image: url('../../assets/SupermarketImage.jpg');
-     background-size: cover;
-     background-position: center;
-     opacity: 0.75;
-     
-     background-color: rgba(0, 0, 0, 0.3);
-     
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    background-image: url('../../assets/SupermarketImage.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    filter: brightness(40%);
+    z-index: -1;
 }
 
 .center__header{
@@ -52,7 +60,7 @@
 .hero__info h1{
     font-weight: 600;
     font-size: 34px;
-    color: rgba(242, 242, 242, 1);
+    color: rgb(255, 255, 255);
     margin-bottom: 20px;
 }
 .hero__info h3 {
@@ -62,7 +70,7 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(242, 242, 242, 1);
+    color: rgb(255, 255, 255);
 
 }
 .selection{

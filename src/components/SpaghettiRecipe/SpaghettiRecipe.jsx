@@ -5,8 +5,8 @@ export default function SpaghettiRecipe(){
         <div className="reciepe">
             <div className="reciepe__details">
                 <h1>Spaghetti</h1>
-                <h3>eight Ingredients</h3>
-                <h4>Two Ingredients Out of Stock</h4>
+                <h3>Eleven Ingredients</h3>
+                <h4>Four Ingredients Out of Stock</h4>
             </div>
             <div className="reciepe__image">
             <Icon icon="emojione-monotone:spaghetti" style={{width:"93.75px", height:"93.75px", top:"3.13px", left:"3.13px"}} />

@@ -5,17 +5,19 @@ import Hero from "../../components/Hero/Hero";
 import Container from "../../components/Container/Container";
 import "./App.css"
 import RecipeDisplay from "../../components/RecipeDisplay/RecipeDisplay";
+import Modal from 'react-bootstrap/Modal'
+
+
 function App() {
-  const [countries, setCountries] = useState([]);
 
-  useEffect(() => {
-    getCountries();
-  }, []);
+  // useEffect(() => {
+  //   getCountries();
+  // }, []);
 
-  async function getCountries() {
-    const { data } = await supabase.from("countries").select();
-    setCountries(data);
-  }
+  // async function getCountries() {
+  //   const { data } = await supabase.from("countries").select();
+  //   setCountries(data);
+  // }
 
   return (
     <div className="app">
@@ -26,11 +28,6 @@ function App() {
       {/* <Container />
       <Container /> */}
       </div>
-    <ul>
-      {countries.map((country) => (
-        <li key={country.name}>{country.name}</li>
-      ))}
-    </ul>
     </div>
   );
 }
