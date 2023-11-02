@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Hero from "../../components/Hero/Hero";
 import Container from "../../components/Container/Container";
 import "./App.css"
-import ReciepeDisplay from "../../components/ReciepeDisplay/ReciepeDisplay";
+import RecipeDisplay from "../../components/RecipeDisplay/RecipeDisplay";
 function App() {
   const [countries, setCountries] = useState([]);
 
@@ -22,7 +22,7 @@ function App() {
       <NavBar />
       <Hero />
       <div style={{display:"flex", margin:"20px", justifyContent:"space-around"}}>
-      <ReciepeDisplay />
+      <RecipeDisplay />
       {/* <Container />
       <Container /> */}
       </div>
