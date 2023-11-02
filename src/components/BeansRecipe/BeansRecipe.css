@@ -62,3 +62,8 @@
     color: rgba(38, 42, 54, 1);
 
 }
+
+.custom-container {
+    background-color: transparent;
+    padding: 0;
+  }

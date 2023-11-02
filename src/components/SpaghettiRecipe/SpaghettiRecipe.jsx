@@ -15,7 +15,7 @@ export default function SpaghettiRecipe(){
 
             </div>
             <div className="reciepe__functions">
-                <button>Add to Shopping List</button>
+                <button>View Ingredients</button>
                 <button>Remove Ingredients from Stock</button>
                 <button>Edit Recipe</button> 
             </div>
