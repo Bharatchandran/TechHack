@@ -10,10 +10,10 @@ export default function NavBar(){
             <input type="text" />
            </div>
            <div className="nav__right">
-           <Link to="/" style={{textDecoration: 'none'}}><p>Food Items</p></Link>
-            <Link  to="/" style={{textDecoration: 'none'}}><p>Recipes</p></Link>
-            <Link to="/" style={{textDecoration: 'none'}}><p>shoping List</p></Link>
-            <Link to="/" style={{textDecoration: 'none'}}><button>+/- item</button></Link>
+            <Link to="/" style={{textDecoration: 'none'}}><p>Food Items</p></Link>
+            <Link to="/" style={{textDecoration: 'none'}}><p>Recipes</p></Link>
+            <Link to="/" style={{textDecoration: 'none'}}><p>Shopping List</p></Link>
+            <Link to="/" style={{textDecoration: 'none'}}><button>+/- Item</button></Link>
             <Link to="/" style={{textDecoration: 'none'}}><p>Login</p></Link>
            </div>
         </div>

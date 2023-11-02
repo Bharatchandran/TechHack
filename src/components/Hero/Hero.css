@@ -92,3 +92,20 @@
     width: 100%;
 }
 
+.shoppingListButton {
+    width:150px;
+    height:58px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 14px; 
+    background-color: rgba(242, 242, 242, 1);
+    border : 0.5px solid gray;
+}
+
+.shoppingListButtonActive {
+    width:150px;
+    height:58px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 14px; 
+    background-color: rgba(81, 251, 98, 1);
+    border : 0.5px solid gray;
+}

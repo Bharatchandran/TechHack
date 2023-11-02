@@ -29,7 +29,7 @@ export default function BeansRecipe(){
                 </div>
                 <div className="reciepe__functions">
                     <button onClick={handleShowModal}>
-                    Add to Shopping List
+                    View Ingredients
                     </button>
                     <button>Remove Ingredients from Stock</button>
                     <button>Edit Recipe</button> 
