@@ -1,11 +1,11 @@
 import "./BeansRecipe.css"
 import { Icon } from '@iconify/react';
-export default function Reciepe(){
+export default function BeansRecipe(){
     return(
         <div className="reciepe">
             <div className="reciepe__details">
                 <h1>Mexican Beans</h1>
-                <h3>eight Ingredients</h3>
+                <h3>Eight Ingredients</h3>
                 <h4>Two Ingredients Out of Stock</h4>
             </div>
             <div className="reciepe__image">

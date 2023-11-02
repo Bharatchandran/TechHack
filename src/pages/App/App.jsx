@@ -26,11 +26,6 @@ function App() {
       {/* <Container />
       <Container /> */}
       </div>
-    <ul>
-      {countries.map((country) => (
-        <li key={country.name}>{country.name}</li>
-      ))}
-    </ul>
     </div>
   );
 }
