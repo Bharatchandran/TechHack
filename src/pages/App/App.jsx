@@ -2,11 +2,8 @@ import { useEffect, useState } from "react";
 import { supabase } from "../../../supabaseAuth/supabaseClient";
 import NavBar from "../../components/NavBar/NavBar";
 import Hero from "../../components/Hero/Hero";
-import Container from "../../components/Container/Container";
 import "./App.css"
 import RecipeDisplay from "../../components/RecipeDisplay/RecipeDisplay";
-import Modal from 'react-bootstrap/Modal'
-
 
 function App() {
 

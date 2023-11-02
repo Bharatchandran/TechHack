@@ -18,7 +18,7 @@ const MissingIngredientsModal = ({show, handleCloseModal}) => {
         <Modal.Body className="d-flex flex-column align-items-center">
           <p> Eight Ingredients </p>
           <p> <b>Two Ingredients Out of Stock </b>  </p>
-          <Container className="custom-container mb-5">
+          <Container className="custom-container mb-4 d-flex flex-column align-items-center">
             <Row>
               <Col className="mb-3">
                 <Card style={{ width: '10rem', borderRadius: '1rem'}}> 
